@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['src\\pdf2md\\cli.py'],
+    ['src\\pdfmd\\cli.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='pdf2md',
+    name='pdfmd',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
