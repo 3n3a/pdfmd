@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pdf2md"
+name = "pdfmd"
 version = "0.1.0"
 description = "Convert PDF files to Markdown using pymupdf4llm"
 readme = "README.md"
